@@ -1,80 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1980"
-   height="560"
-   viewBox="0 0 1980 560"
-   version="1.1"
-   id="svg30"
-   sodipodi:docname="fig1_method.svg"
-   inkscape:export-filename="fig1_method.pdf"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview30"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.8459596"
-     inkscape:cx="1205.7313"
-     inkscape:cy="279.56418"
-     inkscape:window-width="1822"
-     inkscape:window-height="1051"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg30" />
-  <defs
-     id="defs3">
-    <marker
-       id="arrow-dark"
-       viewBox="0 0 10 10"
-       refX="8.5"
-       refY="5"
-       markerWidth="9"
-       markerHeight="9"
-       orient="auto-start-reverse">
-      <path
-         d="M 0 0 L 10 5 L 0 10 z"
-         fill="#2f3742"
-         id="path1" />
+<svg xmlns="http://www.w3.org/2000/svg" width="1980" height="560" viewBox="0 0 1980 560">
+  <defs>
+    <marker id="arrow-dark" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f3742"/>
     </marker>
-    <marker
-       id="arrow-blue"
-       viewBox="0 0 10 10"
-       refX="8.5"
-       refY="5"
-       markerWidth="9"
-       markerHeight="9"
-       orient="auto-start-reverse">
-      <path
-         d="M 0 0 L 10 5 L 0 10 z"
-         fill="#1f6feb"
-         id="path2" />
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f6feb"/>
     </marker>
-    <marker
-       id="arrow-orange"
-       viewBox="0 0 10 10"
-       refX="8.5"
-       refY="5"
-       markerWidth="9"
-       markerHeight="9"
-       orient="auto-start-reverse">
-      <path
-         d="M 0 0 L 10 5 L 0 10 z"
-         fill="#b55300"
-         id="path3" />
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b55300"/>
     </marker>
-    <style
-       id="style3">
+    <style>
       .label { font-family: Arial, Helvetica, sans-serif; font-size: 31px; font-weight: 700; fill: #1f2328; }
       .small { font-family: Arial, Helvetica, sans-serif; font-size: 24px; fill: #404854; }
       .tiny { font-family: Arial, Helvetica, sans-serif; font-size: 21px; fill: #5b6470; }
@@ -93,323 +28,72 @@
       .branch { font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 700; }
     </style>
   </defs>
-  <rect
-     x="0"
-     y="0"
-     width="1980"
-     height="560"
-     fill="#ffffff"
-     id="rect3" />
+
+  <rect x="0" y="0" width="1980" height="560" fill="#ffffff"/>
+
   <!-- Input and direct answer -->
-  <rect
-     class="box"
-     x="54"
-     y="196"
-     width="188"
-     height="128"
-     id="rect4" />
-  <text
-     class="label"
-     x="148"
-     y="247"
-     text-anchor="middle"
-     id="text4">Question</text>
-  <text
-     class="small"
-     x="148"
-     y="284"
-     text-anchor="middle"
-     id="text5">x</text>
-  <path
-     class="arrow"
-     d="M 242 260 L 328 260"
-     id="path5" />
-  <rect
-     class="bluebox"
-     x="330"
-     y="176"
-     width="242"
-     height="168"
-     id="rect5" />
-  <text
-     class="label"
-     x="451"
-     y="225"
-     text-anchor="middle"
-     id="text6">Direct</text>
-  <text
-     class="label"
-     x="451"
-     y="262"
-     text-anchor="middle"
-     id="text7">answer</text>
-  <text
-     class="math"
-     x="451"
-     y="309"
-     text-anchor="middle"
-     id="text8"><tspan
-       class="var"
-       id="tspan7">a</tspan><tspan
-       class="var"
-       baseline-shift="sub"
-       font-size="19"
-       id="tspan8">0</tspan></text>
+  <rect class="box" x="54" y="196" width="188" height="128"/>
+  <text class="label" x="148" y="247" text-anchor="middle">Question</text>
+  <text class="small" x="148" y="284" text-anchor="middle">x</text>
+
+  <path class="arrow" d="M 242 260 L 328 260"/>
+
+  <rect class="bluebox" x="330" y="176" width="242" height="168"/>
+  <text class="label" x="451" y="225" text-anchor="middle">Direct</text>
+  <text class="label" x="451" y="262" text-anchor="middle">answer</text>
+  <text class="math" x="451" y="309" text-anchor="middle"><tspan class="var">a</tspan><tspan class="var" baseline-shift="sub" font-size="19">0</tspan></text>
+
   <!-- Sampling block -->
-  <path
-     class="arrow"
-     d="M 572 260 L 648 260"
-     id="path8" />
-  <rect
-     class="dash"
-     x="650"
-     y="70"
-     width="314"
-     height="382"
-     id="rect8" />
-  <text
-     class="label"
-     x="807"
-     y="118"
-     text-anchor="middle"
-     id="text9">Sample K answers</text>
-  <rect
-     class="sample"
-     x="702"
-     y="155"
-     width="210"
-     height="58"
-     id="rect9" />
-  <text
-     class="math"
-     x="807"
-     y="193"
-     text-anchor="middle"
-     id="text10"><tspan
-       class="var"
-       id="tspan9">a</tspan><tspan
-       class="var"
-       baseline-shift="sub"
-       font-size="18"
-       id="tspan10">1</tspan></text>
-  <rect
-     class="sample"
-     x="702"
-     y="226"
-     width="210"
-     height="58"
-     id="rect10" />
-  <text
-     class="math"
-     x="807"
-     y="264"
-     text-anchor="middle"
-     id="text12"><tspan
-       class="var"
-       id="tspan11">a</tspan><tspan
-       class="var"
-       baseline-shift="sub"
-       font-size="18"
-       id="tspan12">2</tspan></text>
-  <text
-     class="label"
-     x="807"
-     y="328"
-     text-anchor="middle"
-     id="text13">...</text>
-  <rect
-     class="sample"
-     x="702"
-     y="354"
-     width="210"
-     height="58"
-     id="rect13" />
-  <text
-     class="math"
-     x="807"
-     y="392"
-     text-anchor="middle"
-     id="text14"><tspan
-       class="var"
-       id="tspan13">a</tspan><tspan
-       class="var"
-       baseline-shift="sub"
-       font-size="18"
-       id="tspan14">K</tspan></text>
+  <path class="arrow" d="M 572 260 L 648 260"/>
+
+  <rect class="dash" x="650" y="70" width="314" height="382"/>
+  <text class="label" x="807" y="118" text-anchor="middle">Sample K answers</text>
+  <rect class="sample" x="702" y="155" width="210" height="58"/>
+  <text class="math" x="807" y="193" text-anchor="middle"><tspan class="var">a</tspan><tspan class="var" baseline-shift="sub" font-size="18">1</tspan></text>
+  <rect class="sample" x="702" y="226" width="210" height="58"/>
+  <text class="math" x="807" y="264" text-anchor="middle"><tspan class="var">a</tspan><tspan class="var" baseline-shift="sub" font-size="18">2</tspan></text>
+  <text class="label" x="807" y="328" text-anchor="middle">...</text>
+  <rect class="sample" x="702" y="354" width="210" height="58"/>
+  <text class="math" x="807" y="392" text-anchor="middle"><tspan class="var">a</tspan><tspan class="var" baseline-shift="sub" font-size="18">K</tspan></text>
+
   <!-- Scoring -->
-  <path
-     class="arrow"
-     d="M 964 260 L 1038 260"
-     id="path14" />
-  <rect
-     class="orangebox"
-     x="1040"
-     y="132"
-     width="270"
-     height="256"
-     id="rect14" />
-  <text
-     class="label"
-     x="1175"
-     y="181"
-     text-anchor="middle"
-     id="text15">Consistency</text>
-  <text
-     class="small"
-     x="1175"
-     y="221"
-     text-anchor="middle"
-     id="text16">of direct answer</text>
-  <text
-     class="formula"
-     x="1175"
-     y="271"
-     text-anchor="middle"
-     id="text17">c = count(a<tspan
-   baseline-shift="sub"
-   font-size="18"
-   id="tspan16">i</tspan> = a<tspan
-   baseline-shift="sub"
-   font-size="18"
-   id="tspan17">0</tspan>) / K</text>
-  <line
-     x1="1076"
-     y1="304"
-     x2="1274"
-     y2="304"
-     stroke="#d18a35"
-     stroke-width="2"
-     id="line17" />
-  <text
-     class="small"
-     x="1175"
-     y="342"
-     text-anchor="middle"
-     id="text18">majority answer</text>
-  <text
-     class="formula"
-     x="1175"
-     y="374"
-     text-anchor="middle"
-     id="text19">m = mode(a<tspan
-   baseline-shift="sub"
-   font-size="18"
-   id="tspan18">1:K</tspan>)</text>
+  <path class="arrow" d="M 964 260 L 1038 260"/>
+
+  <rect class="orangebox" x="1040" y="132" width="270" height="256"/>
+  <text class="label" x="1175" y="181" text-anchor="middle">Consistency</text>
+  <text class="small" x="1175" y="221" text-anchor="middle">of direct answer</text>
+  <text class="formula" x="1175" y="271" text-anchor="middle">c = count(a<tspan baseline-shift="sub" font-size="18">i</tspan> = a<tspan baseline-shift="sub" font-size="18">0</tspan>) / K</text>
+  <line x1="1076" y1="304" x2="1274" y2="304" stroke="#d18a35" stroke-width="2"/>
+  <text class="small" x="1175" y="342" text-anchor="middle">majority answer</text>
+  <text class="formula" x="1175" y="374" text-anchor="middle">m = mode(a<tspan baseline-shift="sub" font-size="18">1:K</tspan>)</text>
+
   <!-- Gate -->
-  <path
-     class="arrow"
-     d="M 1310 260 L 1378 260"
-     id="path19" />
-  <path
-     d="M 1450 144 L 1534 260 L 1450 376 L 1366 260 Z"
-     fill="#ffffff"
-     stroke="#6b7280"
-     stroke-width="2.6"
-     id="path20" />
-  <text
-     class="label"
-     x="1453.5463"
-     y="271.00598"
-     text-anchor="middle"
-     id="text20">c &lt; τ?</text>
+  <path class="arrow" d="M 1310 260 L 1378 260"/>
+
+  <path d="M 1450 144 L 1534 260 L 1450 376 L 1366 260 Z" fill="#ffffff" stroke="#6b7280" stroke-width="2.6"/>
+  <text class="label" x="1450" y="245" text-anchor="middle">c &lt; τ?</text>
+  <text class="tiny" x="1450" y="282" text-anchor="middle">τ = 0.4</text>
+
   <!-- Branch outputs -->
-  <path
-     class="arrow-orange"
-     d="M 1450 144 C 1472 92, 1515 86, 1536 86"
-     id="path21" />
-  <text
-     class="branch"
-     x="1485.5433"
-     y="80.910446"
-     text-anchor="middle"
-     fill="#b55300"
-     id="text22">yes</text>
-  <rect
-     class="orangebox"
-     x="1538"
-     y="42"
-     width="222"
-     height="92"
-     id="rect22" />
-  <text
-     class="small"
-     x="1649"
-     y="78"
-     text-anchor="middle"
-     id="text23">replace with</text>
-  <text
-     class="math"
-     x="1649"
-     y="113"
-     text-anchor="middle"
-     id="text24"><tspan
-       class="var"
-       id="tspan23">m</tspan></text>
-  <path
-     class="arrow-blue"
-     d="M 1450 376 C 1472 428, 1515 438, 1536 438"
-     id="path24" />
-  <text
-     class="branch"
-     x="1487.5433"
-     y="453.54327"
-     text-anchor="middle"
-     fill="#1f6feb"
-     id="text25">no</text>
-  <rect
-     class="bluebox"
-     x="1538"
-     y="392"
-     width="222"
-     height="92"
-     id="rect25" />
-  <text
-     class="small"
-     x="1649"
-     y="428"
-     text-anchor="middle"
-     id="text26">keep direct</text>
-  <text
-     class="math"
-     x="1649"
-     y="463"
-     text-anchor="middle"
-     id="text27"><tspan
-       class="var"
-       id="tspan26">a</tspan><tspan
-       class="var"
-       baseline-shift="sub"
-       font-size="18"
-       id="tspan27">0</tspan></text>
-  <path
-     class="arrow-orange"
-     d="M 1760 88 L 1876 88 L 1876 216"
-     id="path27" />
-  <path
-     class="arrow-blue"
-     d="M 1760 438 L 1876 438 L 1876 306"
-     id="path28" />
-  <path
-     class="arrow"
-     d="M 1534 260 L 1810 260"
-     id="path29" />
-  <rect
-     class="greenbox"
-     x="1812"
-     y="218"
-     width="128"
-     height="86"
-     id="rect29" />
-  <text
-     class="label"
-     x="1876"
-     y="254"
-     text-anchor="middle"
-     id="text29">Final</text>
-  <text
-     class="small"
-     x="1876"
-     y="285"
-     text-anchor="middle"
-     id="text30">answer</text>
+  <path class="arrow-orange" d="M 1450 144 L 1450 86 L 1536 86"/>
+  <text class="branch" x="1495" y="75" text-anchor="middle" fill="#b55300">yes</text>
+
+  <rect class="orangebox" x="1538" y="42" width="222" height="92"/>
+  <text class="small" x="1649" y="78" text-anchor="middle">replace with</text>
+  <text class="math" x="1649" y="113" text-anchor="middle"><tspan class="var">m</tspan></text>
+
+  <path class="arrow-blue" d="M 1450 376 L 1450 438 L 1536 438"/>
+  <text class="branch" x="1497" y="463" text-anchor="middle" fill="#1f6feb">no</text>
+
+  <rect class="bluebox" x="1538" y="392" width="222" height="92"/>
+  <text class="small" x="1649" y="428" text-anchor="middle">keep direct</text>
+  <text class="math" x="1649" y="463" text-anchor="middle"><tspan class="var">a</tspan><tspan class="var" baseline-shift="sub" font-size="18">0</tspan></text>
+
+  <path class="arrow-orange" d="M 1760 88 L 1876 88 L 1876 216"/>
+  <path class="arrow-blue" d="M 1760 438 L 1876 438 L 1876 306"/>
+
+  <rect class="greenbox" x="1812" y="218" width="128" height="86"/>
+  <text class="label" x="1876" y="254" text-anchor="middle">Final</text>
+  <text class="small" x="1876" y="285" text-anchor="middle">answer</text>
+
 </svg>
