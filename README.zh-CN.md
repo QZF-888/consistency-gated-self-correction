@@ -44,8 +44,6 @@ a_0, & c \ge \tau.
 | GPQA-Diamond | 5 | 27.6 | 27.0 | 30.3 | +2.7 | 30.4 |
 | Overall | 15 | 62.8 | 59.2 | 65.2 | +2.4 | 16.2 |
 
-![主结果图](paper/figures/fig2_main_results.svg)
-
 ## 仓库结构
 
 ```text
@@ -65,7 +63,7 @@ tests/          轻量单元测试
 - 模型、数据集和实验矩阵配置文件。
 - 实验运行、结果表重建和论文图重建脚本。
 - 已整理的 CSV/JSON 结果摘要。
-- GitHub 可直接展示的 SVG 论文图，本地整理包中保留 PNG/PDF 副本。
+- GitHub 可直接展示的方法流程图 SVG。
 - AAAI 风格 LaTeX 草稿源码和参考文献。
 - 适合 Kaggle 长时间评测的前台运行辅助脚本。
 - 轻量单元测试和 GitHub Actions CI 配置。
