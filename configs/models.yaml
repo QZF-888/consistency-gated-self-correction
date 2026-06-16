@@ -1,0 +1,26 @@
+models:
+  qwen2_5_7b:
+    display_name: Qwen2.5-7B
+    hf_id: Qwen/Qwen2.5-7B-Instruct
+    max_new_tokens_default: 512
+    trust_remote_code: true
+  internlm3_8b:
+    display_name: InternLM3-8B
+    hf_id: internlm/internlm3-8b-instruct
+    max_new_tokens_default: 512
+    trust_remote_code: true
+  llama3_1_8b:
+    display_name: Llama3.1-8B
+    hf_id: meta-llama/Llama-3.1-8B-Instruct
+    max_new_tokens_default: 512
+    trust_remote_code: true
+  mistral_7b_v03:
+    display_name: Mistral-7B-v0.3
+    hf_id: mistralai/Mistral-7B-Instruct-v0.3
+    max_new_tokens_default: 512
+    trust_remote_code: true
+  gemma2_9b:
+    display_name: Gemma2-9B
+    hf_id: google/gemma-2-9b-it
+    max_new_tokens_default: 512
+    trust_remote_code: true
