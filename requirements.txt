@@ -1,0 +1,14 @@
+accelerate
+bitsandbytes>=0.46.1
+datasets
+huggingface_hub
+matplotlib
+numpy
+openpyxl
+pandas>=2.2
+pyyaml
+scipy
+seaborn
+torch
+tqdm
+transformers>=4.53
