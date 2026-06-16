@@ -11,7 +11,7 @@
 给定直接答案 $a_0$ 和 $K$ 个采样答案 $a_1,\ldots,a_K$，定义直接答案一致性：
 
 $$
-c = \frac{\operatorname{count}(a_i = a_0)}{K}.
+c = \frac{\mathrm{count}(a_i = a_0)}{K}.
 $$
 
 最终答案为：
@@ -19,14 +19,14 @@ $$
 $$
 \hat{a} =
 \begin{cases}
-\operatorname{mode}(a_{1:K}), & c < \tau,\\
+\mathrm{mode}(a_{1:K}), & c < \tau,\\
 a_0, & c \ge \tau.
 \end{cases}
 $$
 
 主实验使用 **$K = 5$**、固定阈值 **$\tau = 0.4$**。**$K = 3$** 是从五次采样中的前三次做 post-hoc 分析得到的，不需要重新跑模型。
 
-![方法流程图](paper/figures/fig1_method.svg)
+![方法流程图](paper/figures/fig1_method_readme.svg)
 
 ## 主要结果
 

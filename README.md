@@ -11,7 +11,7 @@
 For a direct answer $a_0$ and $K$ sampled answers $a_1,\ldots,a_K$, we define the direct-answer consistency:
 
 $$
-c = \frac{\operatorname{count}(a_i = a_0)}{K}.
+c = \frac{\mathrm{count}(a_i = a_0)}{K}.
 $$
 
 The final answer is:
@@ -19,14 +19,14 @@ The final answer is:
 $$
 \hat{a} =
 \begin{cases}
-\operatorname{mode}(a_{1:K}), & c < \tau,\\
+\mathrm{mode}(a_{1:K}), & c < \tau,\\
 a_0, & c \ge \tau.
 \end{cases}
 $$
 
 The main experiments use **$K = 5$** and a fixed threshold **$\tau = 0.4$**. A post-hoc **$K = 3$** setting is obtained from the first three of the five sampled answers.
 
-![Method overview](paper/figures/fig1_method.svg)
+![Method overview](paper/figures/fig1_method_readme.svg)
 
 ## Main Results
 
