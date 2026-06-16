@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f3742"/></marker>
+  </defs>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#1f2328}.title{font-size:24px;font-weight:700}.small{font-size:17px}.math{font-size:18px;font-style:italic}.box{fill:#fff;stroke:#94a3b8;stroke-width:2;rx:12}.blue{fill:#eef5ff;stroke:#4f83ff}.orange{fill:#fff4e5;stroke:#d9822b}.green{fill:#edf9f0;stroke:#3ca65c}.line{stroke:#2f3742;stroke-width:3;fill:none;marker-end:url(#arrow)}.yes{stroke:#b45309}.no{stroke:#1d4ed8}
+  </style>
+  <rect x="40" y="135" width="150" height="80" class="box"/><text x="115" y="168" text-anchor="middle" class="title">Question</text><text x="115" y="195" text-anchor="middle" class="math">x</text>
+  <line x1="190" y1="175" x2="250" y2="175" class="line"/>
+  <rect x="250" y="120" width="160" height="110" class="box blue"/><text x="330" y="160" text-anchor="middle" class="title">Direct</text><text x="330" y="188" text-anchor="middle" class="small">answer</text><text x="330" y="214" text-anchor="middle" class="math">a0</text>
+  <line x1="410" y1="175" x2="470" y2="175" class="line"/>
+  <rect x="470" y="70" width="170" height="210" class="box"/><text x="555" y="105" text-anchor="middle" class="title">Sample K</text><text x="555" y="145" text-anchor="middle" class="math">a1</text><text x="555" y="180" text-anchor="middle" class="math">a2</text><text x="555" y="215" text-anchor="middle">...</text><text x="555" y="250" text-anchor="middle" class="math">aK</text>
+  <line x1="640" y1="175" x2="700" y2="175" class="line"/>
+  <rect x="700" y="95" width="190" height="160" class="box orange"/><text x="795" y="132" text-anchor="middle" class="title">Consistency</text><text x="795" y="165" text-anchor="middle" class="math">c = count(ai=a0)/K</text><line x1="730" y1="185" x2="860" y2="185" stroke="#d9822b"/><text x="795" y="218" text-anchor="middle" class="small">majority</text><text x="795" y="242" text-anchor="middle" class="math">m = mode(a1:K)</text>
+  <line x1="890" y1="175" x2="940" y2="175" class="line"/>
+  <path d="M990 110 L1060 175 L990 240 L920 175 Z" fill="#fff" stroke="#64748b" stroke-width="2"/><text x="990" y="183" text-anchor="middle" class="title">c &lt; tau?</text>
+  <path d="M1025 125 L1100 80 L1100 125" class="line yes"/><rect x="1100" y="45" width="90" height="70" class="box orange"/><text x="1145" y="75" text-anchor="middle" class="small">replace</text><text x="1145" y="100" text-anchor="middle" class="math">m</text>
+  <path d="M1025 225 L1100 270 L1100 235" class="line no"/><rect x="1100" y="245" width="90" height="70" class="box blue"/><text x="1145" y="275" text-anchor="middle" class="small">keep</text><text x="1145" y="300" text-anchor="middle" class="math">a0</text>
+  <rect x="1010" y="150" width="120" height="70" class="box green"/><text x="1070" y="180" text-anchor="middle" class="title">Final</text><text x="1070" y="204" text-anchor="middle" class="small">answer</text>
+</svg>
