@@ -8,23 +8,23 @@
 
 ## Method
 
-For a direct answer \(a_0\) and \(K\) sampled answers \(a_1,\ldots,a_K\), we define the direct-answer consistency:
+For a direct answer $a_0$ and $K$ sampled answers $a_1,\ldots,a_K$, we define the direct-answer consistency:
 
-\[
+$$
 c = \frac{\operatorname{count}(a_i = a_0)}{K}.
-\]
+$$
 
 The final answer is:
 
-\[
+$$
 \hat{a} =
 \begin{cases}
 \operatorname{mode}(a_{1:K}), & c < \tau,\\
 a_0, & c \ge \tau.
 \end{cases}
-\]
+$$
 
-The main experiments use **K = 5** and a fixed threshold **tau = 0.4**. A post-hoc **K = 3** setting is obtained from the first three of the five sampled answers.
+The main experiments use **$K = 5$** and a fixed threshold **$\tau = 0.4$**. A post-hoc **$K = 3$** setting is obtained from the first three of the five sampled answers.
 
 ![Method overview](paper/figures/fig1_method.svg)
 
@@ -35,7 +35,7 @@ The repository contains experiments across five instruction-tuned models and thr
 - Models: Qwen2.5-7B, InternLM3-8B, Llama3.1-8B, Mistral-7B-v0.3, Gemma2-9B
 - Datasets: GSM8K, ARC-Challenge, GPQA-Diamond
 
-At the fixed threshold \( \tau = 0.4 \), Gated K=5 improves the overall average accuracy from **62.8%** to **65.2%**.
+At the fixed threshold $\tau = 0.4$, Gated $K=5$ improves the overall average accuracy from **62.8%** to **65.2%**.
 
 | Dataset | Models | Direct | Standard SC | Gated K=5 | Gain | Trigger rate |
 |---|---:|---:|---:|---:|---:|---:|
