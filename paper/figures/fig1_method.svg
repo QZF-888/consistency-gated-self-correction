@@ -1,20 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="1485" height="420" viewBox="0 0 1485 420">
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f3742"/></marker>
+    <marker id="arrow-dark" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f3742"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f6feb"/>
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b45309"/>
+    </marker>
+    <style>
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; fill: #111827; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111827; }
+      .math { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111827; font-style: italic; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2.6; rx: 14; }
+      .bluebox { fill: #eef5ff; stroke: #4f83ff; stroke-width: 2.6; rx: 14; }
+      .orangebox { fill: #fff4e5; stroke: #d97706; stroke-width: 2.6; rx: 14; }
+      .greenbox { fill: #edf9f0; stroke: #22a35a; stroke-width: 2.6; rx: 14; }
+      .arrow { fill: none; stroke: #2f3742; stroke-width: 3.4; marker-end: url(#arrow-dark); }
+      .arrow-blue { fill: none; stroke: #1f6feb; stroke-width: 3.4; marker-end: url(#arrow-blue); }
+      .arrow-orange { fill: none; stroke: #b45309; stroke-width: 3.4; marker-end: url(#arrow-orange); }
+      .decision { fill: #ffffff; stroke: #64748b; stroke-width: 2.4; }
+    </style>
   </defs>
-  <style>
-    text{font-family:Arial,Helvetica,sans-serif;fill:#1f2328}.title{font-size:24px;font-weight:700}.small{font-size:17px}.math{font-size:18px;font-style:italic}.box{fill:#fff;stroke:#94a3b8;stroke-width:2;rx:12}.blue{fill:#eef5ff;stroke:#4f83ff}.orange{fill:#fff4e5;stroke:#d9822b}.green{fill:#edf9f0;stroke:#3ca65c}.line{stroke:#2f3742;stroke-width:3;fill:none;marker-end:url(#arrow)}.yes{stroke:#b45309}.no{stroke:#1d4ed8}
-  </style>
-  <rect x="40" y="135" width="150" height="80" class="box"/><text x="115" y="168" text-anchor="middle" class="title">Question</text><text x="115" y="195" text-anchor="middle" class="math">x</text>
-  <line x1="190" y1="175" x2="250" y2="175" class="line"/>
-  <rect x="250" y="120" width="160" height="110" class="box blue"/><text x="330" y="160" text-anchor="middle" class="title">Direct</text><text x="330" y="188" text-anchor="middle" class="small">answer</text><text x="330" y="214" text-anchor="middle" class="math">a0</text>
-  <line x1="410" y1="175" x2="470" y2="175" class="line"/>
-  <rect x="470" y="70" width="170" height="210" class="box"/><text x="555" y="105" text-anchor="middle" class="title">Sample K</text><text x="555" y="145" text-anchor="middle" class="math">a1</text><text x="555" y="180" text-anchor="middle" class="math">a2</text><text x="555" y="215" text-anchor="middle">...</text><text x="555" y="250" text-anchor="middle" class="math">aK</text>
-  <line x1="640" y1="175" x2="700" y2="175" class="line"/>
-  <rect x="700" y="95" width="190" height="160" class="box orange"/><text x="795" y="132" text-anchor="middle" class="title">Consistency</text><text x="795" y="165" text-anchor="middle" class="math">c = count(ai=a0)/K</text><line x1="730" y1="185" x2="860" y2="185" stroke="#d9822b"/><text x="795" y="218" text-anchor="middle" class="small">majority</text><text x="795" y="242" text-anchor="middle" class="math">m = mode(a1:K)</text>
-  <line x1="890" y1="175" x2="940" y2="175" class="line"/>
-  <path d="M990 110 L1060 175 L990 240 L920 175 Z" fill="#fff" stroke="#64748b" stroke-width="2"/><text x="990" y="183" text-anchor="middle" class="title">c &lt; tau?</text>
-  <path d="M1025 125 L1100 80 L1100 125" class="line yes"/><rect x="1100" y="45" width="90" height="70" class="box orange"/><text x="1145" y="75" text-anchor="middle" class="small">replace</text><text x="1145" y="100" text-anchor="middle" class="math">m</text>
-  <path d="M1025 225 L1100 270 L1100 235" class="line no"/><rect x="1100" y="245" width="90" height="70" class="box blue"/><text x="1145" y="275" text-anchor="middle" class="small">keep</text><text x="1145" y="300" text-anchor="middle" class="math">a0</text>
-  <rect x="1010" y="150" width="120" height="70" class="box green"/><text x="1070" y="180" text-anchor="middle" class="title">Final</text><text x="1070" y="204" text-anchor="middle" class="small">answer</text>
+
+  <rect x="35" y="135" width="175" height="96" class="box"/>
+  <text x="122" y="174" text-anchor="middle" class="label">Question</text>
+  <text x="122" y="207" text-anchor="middle" class="math">x</text>
+
+  <path d="M 210 183 L 280 183" class="arrow"/>
+
+  <rect x="285" y="116" width="190" height="130" class="bluebox"/>
+  <text x="380" y="164" text-anchor="middle" class="label">Direct</text>
+  <text x="380" y="197" text-anchor="middle" class="small">answer</text>
+  <text x="380" y="226" text-anchor="middle" class="math">a0</text>
+
+  <path d="M 475 183 L 548 183" class="arrow"/>
+
+  <rect x="550" y="55" width="205" height="250" class="box"/>
+  <text x="652" y="100" text-anchor="middle" class="label">Sample K</text>
+  <text x="652" y="146" text-anchor="middle" class="math">a1</text>
+  <text x="652" y="186" text-anchor="middle" class="math">a2</text>
+  <text x="652" y="226" text-anchor="middle" class="small">...</text>
+  <text x="652" y="266" text-anchor="middle" class="math">aK</text>
+
+  <path d="M 755 183 L 823 183" class="arrow"/>
+
+  <rect x="825" y="84" width="230" height="190" class="orangebox"/>
+  <text x="940" y="128" text-anchor="middle" class="label">Consistency</text>
+  <text x="940" y="165" text-anchor="middle" class="math">c = count(ai=a0)/K</text>
+  <path d="M 862 190 L 1018 190" stroke="#d97706" stroke-width="1.6"/>
+  <text x="940" y="228" text-anchor="middle" class="small">majority</text>
+  <text x="940" y="258" text-anchor="middle" class="math">m = mode(a1:K)</text>
+
+  <path d="M 1055 183 L 1110 183" class="arrow"/>
+
+  <path d="M 1182 102 L 1254 183 L 1182 264 L 1110 183 Z" class="decision"/>
+  <text x="1182" y="193" text-anchor="middle" class="label">c &lt; tau?</text>
+
+  <path d="M 1224 120 L 1322 66 L 1322 110" class="arrow-orange"/>
+  <rect x="1322" y="26" width="110" height="82" class="orangebox"/>
+  <text x="1377" y="62" text-anchor="middle" class="small">replace</text>
+  <text x="1377" y="91" text-anchor="middle" class="math">m</text>
+
+  <rect x="1206" y="156" width="142" height="80" class="greenbox"/>
+  <text x="1277" y="191" text-anchor="middle" class="label">Final</text>
+  <text x="1277" y="223" text-anchor="middle" class="small">answer</text>
+
+  <path d="M 1224 246 L 1322 302 L 1322 265" class="arrow-blue"/>
+  <rect x="1322" y="255" width="110" height="82" class="bluebox"/>
+  <text x="1377" y="291" text-anchor="middle" class="small">keep</text>
+  <text x="1377" y="320" text-anchor="middle" class="math">a0</text>
 </svg>
