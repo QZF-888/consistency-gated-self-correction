@@ -1,0 +1,22 @@
+experiment:
+  n_generations: 5
+  posthoc_k_values: [3, 5]
+  fixed_threshold: 0.4
+  threshold_grid: [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+  temperature: 0.7
+  top_p: 0.95
+  seed: 42
+  save_every: 1
+  zip_every: 10
+
+matrix:
+  models:
+    - qwen2_5_7b
+    - internlm3_8b
+    - llama3_1_8b
+    - mistral_7b_v03
+    - gemma2_9b
+  datasets:
+    - gsm8k
+    - arc_challenge
+    - gpqa_diamond
