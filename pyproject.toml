@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consistency-gated-self-correction"
+version = "0.1.0"
+description = "Consistency-gated self-correction for reliable reasoning in large language models."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Consistency-Gated Self-Correction Authors" }]
+dependencies = ["datasets", "numpy", "pandas>=2.2", "pyyaml", "scipy", "tqdm"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
