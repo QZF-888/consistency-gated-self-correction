@@ -1,0 +1,25 @@
+datasets:
+  gsm8k:
+    display_name: GSM8K
+    hf_path: openai/gsm8k
+    hf_name: main
+    split: test
+    num_samples: 500
+    answer_type: numeric
+    max_new_tokens: 512
+  arc_challenge:
+    display_name: ARC-Challenge
+    hf_path: allenai/ai2_arc
+    hf_name: ARC-Challenge
+    split: train
+    num_samples: 500
+    answer_type: choice
+    max_new_tokens: 256
+  gpqa_diamond:
+    display_name: GPQA-Diamond
+    hf_path: Idavidrein/gpqa
+    hf_name: gpqa_diamond
+    split: train
+    num_samples: 198
+    answer_type: choice
+    max_new_tokens: 512
