@@ -44,8 +44,6 @@ At the fixed threshold \( \tau = 0.4 \), Gated K=5 improves the overall average 
 | GPQA-Diamond | 5 | 27.6 | 27.0 | 30.3 | +2.7 | 30.4 |
 | Overall | 15 | 62.8 | 59.2 | 65.2 | +2.4 | 16.2 |
 
-![Main results](paper/figures/fig2_main_results.svg)
-
 ## Repository Layout
 
 ```text
@@ -65,7 +63,7 @@ tests/          Lightweight unit tests
 - Config files for the model, dataset, and experiment matrix.
 - Scripts for running experiments, rebuilding result tables, and regenerating figures.
 - Released summary results in CSV/JSON format.
-- Paper-ready figures in SVG format, with PNG/PDF copies kept in the local release bundle.
+- Paper-ready method figure in SVG format.
 - AAAI-style LaTeX draft sources and references.
 - Kaggle foreground-running helper for long model evaluations.
 - Lightweight unit tests and a GitHub Actions CI workflow.
